@@ -31,6 +31,7 @@ from .uper_head import UPerHead
 from .vit_guidance_head import VitGuidanceHead
 from .sct_head import SCTHead
 from .sct_head_auxiliary import AU_SCTHead
+from .geo_aux_head import GeoAuxHead
 
 __all__ = [
     'FCNHead', 'PSPHead', 'ASPPHead', 'PSAHead', 'NLHead', 'GCHead', 'CCHead',
@@ -39,5 +40,5 @@ __all__ = [
     'PointHead', 'APCHead', 'DMHead', 'LRASPPHead', 'SETRUPHead',
     'SETRMLAHead', 'DPTHead', 'SETRMLAHead', 'SegmenterMaskTransformerHead',
     'SegformerHead', 'ISAHead', 'STDCHead', 'IterativeDecodeHead',
-    'KernelUpdateHead', 'KernelUpdator','VitGuidanceHead','SCTHead','AU_SCTHead'
+    'KernelUpdateHead', 'KernelUpdator','VitGuidanceHead','SCTHead','AU_SCTHead', 'GeoAuxHead'
 ]
